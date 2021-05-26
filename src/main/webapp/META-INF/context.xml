@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/TestDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              url="jdbc:mysql://localhost:3306/spring_core"
+              username="root"
+              password=""/>
+</Context>
